@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 87px;
+}
+
+.ri-menu-line{
+    display: none;
+}
+
+nav{
+    display: flex;
+    gap: 57px;
+}
+
+nav a{
+    font-size: large;
+    text-decoration: none;
+    color: #000;
+}
+
+main{
+    padding-top: 75px;
+    padding-left: 66px;
+    display: flex;
+}
+
+main p{
+    line-height: 1.7;
+    font-size: large;
+}
+
+main h1{
+    font-size: 66px;
+    padding-bottom: 33px;
+    line-height: 1;
+}
+
+main button{
+    background-color: lightblue;
+    color: white;
+    padding: 33px 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: large;
+}
